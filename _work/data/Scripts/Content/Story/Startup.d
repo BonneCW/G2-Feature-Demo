@@ -20,6 +20,8 @@ func void INIT_GLOBAL()
 {
 	// wird fuer jede Welt aufgerufen (vor INIT_<LevelName>)
 	Game_InitGerman();
+
+	LeGo_Init(LeGo_All);
 };
 
 
