@@ -22,6 +22,8 @@ func void INIT_GLOBAL()
 	Game_InitGerman();
 
 	LeGo_Init(LeGo_All);
+	
+	Spine_Init(SPINE_ALL);
 };
 
 
