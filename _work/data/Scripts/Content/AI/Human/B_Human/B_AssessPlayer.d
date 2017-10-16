@@ -116,10 +116,6 @@ func void B_AssessPlayer ()
 	
 	
 	// FUNC
-	
-	//------------------------------------
-	//Joly: ImportantInfos für AmbientDMT! 
-	B_AssignDementorTalk (self);
 	//------------------------------------
 
 	// ------ Hat NSC Important Info für Spieler? Auch GUARDPASSAGE ------

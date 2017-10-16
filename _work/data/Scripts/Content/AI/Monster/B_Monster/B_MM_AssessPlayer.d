@@ -24,8 +24,6 @@ func void B_MM_AssessPlayer()
 	
 	// FUNC
 	
-	B_AssignDragonTalk (self);
-	
 	// ------ Hat Monster Important Info für Spieler? ------
 	if (Npc_GetDistToNpc(self,other) <= 700)	//Joly:FINGER WEG!!!!!!!!!!!
 	&& (Npc_CheckInfo (self, 1))	//REIHENFOLGE nicht vertauschen! (Check ist dahingehend buggy (darf nicht als erste Abfrage in &&-verknüpfter If-Abfrage stehen))

@@ -117,12 +117,6 @@ AI\HUMAN\B_Human\B_ResetAll.d
 
 STORY\B_Story\B_UseItem.d
 
-STORY\B_AssignAmbientInfos\B_LastWarningVatras.d
-STORY\B_AssignAmbientInfos\B_Addon_Myxir_TeachRequest.d
-STORY\B_AssignAmbientInfos\B_Addon_Riordian_TeachWisp.d
-STORY\B_AssignAmbientInfos\B_Bartok_ShitAnOrc.d
-STORY\B_AssignAmbientInfos\B_Koch_Hackebeil.d
-
 AI\HUMAN\B_Human\B_ValidateOther.d
 AI\HUMAN\B_Human\B_Say_Gold.d
 AI\HUMAN\B_Human\B_CommentFakeGuild.d
@@ -186,8 +180,6 @@ AI\HUMAN\B_Human\B_AssessTheft.d
 AI\HUMAN\B_Human\B_AssessThreat.d
 AI\HUMAN\B_Human\B_AssessUseMob.d
 AI\HUMAN\B_Human\B_AssessWarn.d
-STORY\B_AssignAmbientInfos\B_AssignDementorTalk.d
-STORY\B_AssignAmbientInfos\B_AssignSchiffswachenTalk.d
 AI\HUMAN\B_Human\B_AssessPlayer.d
 AI\HUMAN\B_Human\B_MoveMob.d
 
@@ -196,18 +188,6 @@ AI\HUMAN\B_Human\B_RemoveWeapon.d
 STORY\B_Content\B_GiveThiefXP.d 
 STORY\B_Story\B_GiveInvItems.d
 STORY\B_Content\B_Beklauen.d
-
-STORY\B_AssignAmbientInfos\B_Announce_Herold.d
-STORY\B_AssignAmbientInfos\B_Preach_Vatras.d
-
-
-STORY\B_AssignAmbientInfos\B_AssignAmbientInfos_*.d
-STORY\B_AssignAmbientInfos\B_AssignAmbientNEWS.d
-STORY\B_AssignAmbientInfos\B_AssignToughGuyNEWS.d
-STORY\B_AssignAmbientInfos\B_AssignCityGuide.d
-STORY\B_AssignAmbientInfos\B_AssignAmbientInfos.d
-
-
 
 AI\MAGIC\C_Spell_Proto.d
 
@@ -248,10 +228,7 @@ STORY\NPC\Orc\*.d
 STORY\B_Story\B_ClearDeadTrader.d
 STORY\B_GiveTradeInv\B_ClearRuneInv.d
 STORY\B_GiveTradeInv\B_ClearJunkTradeInv.d
-STORY\B_GiveTradeInv\B_GiveTradeInv_*.d
 STORY\B_GiveTradeInv\B_GiveTradeInv.d
-
-STORY\B_AssignAmbientInfos\B_Addon_GivePotion.d
 
 AI\HUMAN\ZS_Human\ZS_ClearRoom.d
 AI\HUMAN\ZS_Human\ZS_Dead.d
@@ -291,12 +268,6 @@ STORY\B_Story\B_TeachThiefTalent.d
 STORY\B_Story\B_UseFakeScroll.d
 STORY\B_Story\B_InitGuildAttitudes.d
 STORY\B_Story\B_NPC_IsAliveCheck.d
-STORY\B_AssignAmbientInfos\B_AssignDragonTalk_Main.d
-STORY\B_AssignAmbientInfos\B_AssignDragonTalk_*.d
-STORY\B_AssignAmbientInfos\B_AssignDragonTalk.d
-STORY\B_AssignAmbientInfos\B_AssignDementorTalk_*.d
-STORY\B_AssignAmbientInfos\B_AssignORC_AntiPaladinTalk.d
-STORY\B_AssignAmbientInfos\B_NpcObsessedByDMT.d
 STORY\B_Story\B_GregIsBack.d
 
 STORY\B_Story\B_ENTER_ADDONWORLD.d
@@ -309,7 +280,6 @@ STORY\B_Content\C_ADDON_KNOWS_SCHNAPS.d
 STORY\B_Content\B_Addon_PiratesGoHome.d
 
 STORY\DIALOGE\DIA*.d
-STORY\B_AssignAmbientInfos\B_*.d
 
 
 AI\MONSTER\C_Monster\C_*.d

@@ -23,7 +23,6 @@ func int ZS_Announce_Herold_loop()
 	{
 		AI_PlayAni (self,"T_HGUARD_2_STAND");
 		self.aivar[AIV_TAPOSITION] = NOTINPOS;
-		B_Announce_Herold();
 		
 		Npc_SetStateTime(self, 0);
 	};

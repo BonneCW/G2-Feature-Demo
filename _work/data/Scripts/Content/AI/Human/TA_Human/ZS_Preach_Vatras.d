@@ -24,8 +24,6 @@ func int ZS_Preach_Vatras_loop()
 		{
 			self.aivar[AIV_TAPOSITION] = 0;
 		};
-	
-		B_Preach_Vatras(self.aivar[AIV_TAPOSITION]);
 		
 		self.aivar[AIV_TAPOSITION] = self.aivar[AIV_TAPOSITION] + 1;		
 		

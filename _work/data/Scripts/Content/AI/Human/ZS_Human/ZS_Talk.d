@@ -81,45 +81,6 @@ FUNC void ZS_Talk ()
 				Mdl_StartFaceAni	(self,	"S_ANGRY",	1,	-1);
 			};
 		};
-				
-		// ------ Ambient Infos zuweisen ------
-		if (self.npctype == NPCTYPE_AMBIENT)
-		|| (self.npctype == NPCTYPE_OCAMBIENT)
-		|| (self.npctype == NPCTYPE_BL_AMBIENT)
-		|| (self.npctype == NPCTYPE_TAL_AMBIENT)
-		{
-			B_AssignAmbientInfos	(self);
-			
-			// ------ Cityguide -------
-			if (C_NpcBelongsToCity(self))
-			{
-				B_AssignCityGuide(self);
-			};
-		};
-		
-		// ------ Heiltrank geben können ------
-		if (self.aivar[AIV_PARTYMEMBER] == TRUE)
-		&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Biff))
-		&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Biff_NW))
-		&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Biff_DI))
-		&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Pardos))
-		&& (Hlp_GetInstanceID (self) != Hlp_GetInstanceID (Pardos_NW))
-		{
-			B_Addon_GivePotion(self);
-		};
-
-		// ------ ToughGuy NEWS zuweisen -------
-		if (C_NpcIsToughGuy (self))
-		&& (self.aivar[AIV_ToughGuyNewsOverride] == FALSE)
-		{			
-			B_AssignToughGuyNEWS (self);
-		};
-				
-		// ------ Ambient NEWS zuweisen -------
-		if (C_NpcHasAmbientNews(self))
-		{
-			B_AssignAmbientNEWS	(self);
-		};
 		
 	};		
 		
